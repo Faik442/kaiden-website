@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bize Ulaşın</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        /* Üst Menü */
+        header {
+            background: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .contact-btn {
+            background: #d62d20;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .contact-btn:hover {
+    background-color: #b0172a;
+}
+
+        /* Intro Header */
+        .intro-header {
+            background-color: #0e4c83;
+            text-align: center;
+            color: white;
+            padding: 70px 20px;
+        }
+
+        .intro-header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .intro-header p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.5;
+            opacity: 0.9;
+        }
+
+        /* İçerik Alanı */
+        .contact-section {
+    margin: 80px auto; /* Üst ve alt boşluk 80px, yatayda otomatik ortalama */
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: fit-content; /* İçeriğe göre genişlik ayarla */
+}
+
+        .contact-form {
+            flex: 1;
+            padding-right: 80px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 30px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #d81b29;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .contact-info {
+            flex: 1;
+            padding-left: 40px;
+            border-left: 1px solid #ddd;
+        }
+
+        .contact-info p {
+            margin: 20px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 2px solid #ddd;
+        }
+
+        .footer-logo img {
+            height: 50px;
+            width: auto;
+            margin-bottom: 10px;
+        }
+
+        .footer-text p {
+            color: #333;
+            font-size: 16px;
+            max-width: 800px;
+            margin: 5px auto;
+        }
+
+        .footer-nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .footer-nav ul li {
+            display: inline;
+        }
+
+        .footer-nav ul li a {
+            text-decoration: none;
+            color: #666;
+            font-weight: bold;
+        }
+
+        .footer-nav ul li a:hover {
+            color: #d51e3a;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Üst Menü -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="KAIDEN Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">ANA SAYFA</a></li>
+                    <li><a href="services.html">HİZMETLERİMİZ</a></li>
+                    <li><a href="educations.html">EĞİTİMLERİMİZ</a></li>
+                    <li><a href="aboutus.html">HAKKIMIZDA</a></li>
+                    <li><a href="contactus.html"class="active" >İLETİŞİM</a></li>
+                </ul>
+            </nav>
+            <a href="contactus.html" class="contact-btn">İLETİŞİM</a>
+        </div>
+    </header>
+
+    <!-- Intro Header -->
+    <div class="intro-header">
+        <h1>Bize Ulaşın</h1>
+        <p>Sorularınız veya önerileriniz için bizimle iletişime geçebilirsiniz.</p>
+    </div>
+
+    <!-- İçerik Alanı -->
+    <div class="container">
+        <div class="contact-section">
+            <div class="contact-form">
+                <h2>Bizimle İletişime Geçin</h2>
+                <input type="text" placeholder="Adınız">
+                <textarea placeholder="Mesajınızı yazınız" rows="5"></textarea>
+                <button type="submit">Gönder</button>
+            </div>
+            <div class="contact-info">
+                <h2>İletişim Bilgileri</h2>
+                <p><strong>Adres:</strong> Küçükbakkalköy Mah. Ataşehir, İstanbul</p>
+                <p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00 - 18:00</p>
+                <p><strong>Telefon:</strong> +90 533 595 2829</p>
+                <p><strong>Telefon:</strong> +90 533 363 2365</p>
+                <p><strong>Email:</strong> info@kaiden.com.tr</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="images/logo.jpg" alt="KAIDEN Logo">
+        </div>
+        <div class="footer-text">
+            <p>&copy; 2025 KAIDEN. Tüm hakları saklıdır.</p>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#">Gizlilik Politikası</a></li>
+                <li><a href="#">Şartlar & Koşullar</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

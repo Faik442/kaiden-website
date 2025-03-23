@@ -1,0 +1,186 @@
+/* Header genel ayarları */
+ /* Üst Menü */
+ header {
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.logo img {
+    height: 40px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* İletişim Butonu sağa alındı */
+.contact-btn {
+    background-color: #d51e3a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex; /* inline-block yerine flex kullan */
+    align-items: center; /* Dikey ortalama */
+    justify-content: center; /* Yatay ortalama */
+    min-width: 120px; /* Butonun aşırı genişlemesini engelle */
+}
+
+.contact-btn:hover {
+    background-color: #b0172a;
+}
+
+/* Intro Header (Banner yerine) */
+.intro-header {
+    background-color: #0e4c83;
+    text-align: center;
+    color: white;
+    padding: 70px 20px;
+}
+
+.intro-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro-header p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.container {
+    max-width: 1500px; /* Sayfanın ortasında kalmasını sağlar */
+    width: 100%;
+    margin: 0 auto; /* Ortalamak için */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; 
+}
+
+/* Açıklama Metni */
+.intro-text {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    max-width: 900px;
+    margin: 40px auto;
+    line-height: 1.6;
+}
+
+/* Divider */
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+/* Hizmetler */
+.services {
+    display: flex;
+    flex-direction: column; /* Dikey hizalama */
+    align-items: center; /* Ortalamak için */
+    margin: 60px auto;
+}
+
+.service-item {
+    display: flex;
+    align-items: stretch; /* Tüm elemanları aynı yüksekliğe çeker */
+    width: 100%;
+    max-width: 900px;
+}
+
+.service-text h2 {
+    color: #0e4c83;
+    font-size: 22px;
+}
+
+.service-text p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #fff; /* Beyaz arka plan */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #ddd; /* Üst çizgi */
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 50px; /* Küçük logo */
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.footer-text p {
+    color: #333;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 5px auto;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-nav ul li {
+    display: inline;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+
+.footer-nav ul li a:hover {
+    color: #d51e3a; /* Hover efekti */
+}
+
+
+
