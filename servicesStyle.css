@@ -140,7 +140,7 @@ nav ul li a {
 
 .team-container {
     display: flex;
-    justify-content: center; /* Yatayda ortalama */
+    justify-content: space-between; /* Yatayda ortalama */
     gap: 30px;
     flex-wrap: wrap;
     max-width: 1200px; /* Maksimum genişlik ayarlaması */
@@ -148,13 +148,10 @@ nav ul li a {
 }
 
 .team-member {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    margin-bottom: 20px; /* Alt boşluk */
+    flex: 1 1 calc(33.333% - 20px); /* 3 sütunlu düzen */
+    box-sizing: border-box;
+    text-align: left; /* Yazıların sola yaslanmasını sağlar */
+    padding: 15px;
 }
 
 .team-member img {
