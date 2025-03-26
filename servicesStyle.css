@@ -140,9 +140,11 @@ nav ul li a {
 
 .team-container {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Yatayda ortalama */
     gap: 30px;
     flex-wrap: wrap;
+    max-width: 1200px; /* Maksimum genişlik ayarlaması */
+    margin: 0 auto; /* Ortalamak için margin */
 }
 
 .team-member {
@@ -152,6 +154,7 @@ nav ul li a {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    margin-bottom: 20px; /* Alt boşluk */
 }
 
 .team-member img {
