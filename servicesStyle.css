@@ -138,9 +138,10 @@ nav ul li a {
     background-color: #f8f8f8;
 }
 
+
 .team-container {
     display: flex;
-    justify-content: space-between; /* Yatayda ortalama */
+    justify-content: center; /* Yatayda ortalama */
     gap: 30px;
     flex-wrap: wrap;
     max-width: 1200px; /* Maksimum genişlik ayarlaması */
@@ -148,10 +149,13 @@ nav ul li a {
 }
 
 .team-member {
-    flex: 1 1 calc(33.333% - 20px); /* 3 sütunlu düzen */
-    box-sizing: border-box;
-    text-align: left; /* Yazıların sola yaslanmasını sağlar */
-    padding: 15px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px; /* Alt boşluk */
 }
 
 .team-member img {
@@ -170,6 +174,8 @@ nav ul li a {
     font-size: 14px;
     color: #666;
 }
+
+
 
 .team h2 {
     color: #0e4c83;
